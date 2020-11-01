@@ -44,3 +44,10 @@ console.log(varObject.msg);
 
 // any, aceita qlq valor
 let varAny: any
+
+// Type Inference
+const nome = 'Thiago';
+
+window.addEventListener('click', (e) => {
+  console.log(e.target);
+})

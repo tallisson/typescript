@@ -35,3 +35,8 @@ varObject = {
 console.log(varObject.msg);
 // any, aceita qlq valor
 var varAny;
+// Type Inference
+var nome = 'Thiago';
+window.addEventListener('click', function (e) {
+  console.log('Oi');
+});
